@@ -1,3 +1,12 @@
+# Show user list
+when you type "@" in the message input, the user list will be displayed, and you can click on a username to insert it into the message. 
+
+# Deployment Link
+https://chat-app-amitkumar-developer.vercel.app/
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
