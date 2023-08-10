@@ -1,0 +1,113 @@
+/* src/ChatApp.css */
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .chat-messages {
+    width: 80%;
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-username {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .chat-text {
+    flex-grow: 1;
+  }
+  
+  .like-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .like-count {
+    margin-left: 5px;
+  }
+  
+  .input-container {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+.user-list {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .user-list li:hover {
+    background-color: #f0f0f0;
+  }
+  .app-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .app-heading .highlight {
+    color: green;
+  }
